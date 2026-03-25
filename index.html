@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doa Event</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b0b0b;
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #d4af37;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #d4af37;
+}
+
+/* MAP */
+iframe {
+    width: 90%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>DOA EVENT</h1>
+    <p>Organizasyon & Davet Hizmetleri</p>
+    <a class="btn" href="https://wa.me/905323684677" target="_blank">Hemen Teklif Al</a>
+</div>
+
+<!-- SERVICES -->
+<div class="section">
+    <h2>Hizmetlerimiz</h2>
+    <div class="services">
+        <div class="card">Dugun Organizasyonu</div>
+        <div class="card">Dogum Gunu & Ozel Gunler</div>
+        <div class="card">Kurumsal Etkinlikler</div>
+        <div class="card">Acilis & Lansman</div>
+    </div>
+</div>
+
+<!-- INSTAGRAM -->
+<div class="section">
+    <h2>Instagram</h2>
+    <a class="btn" href="https://instagram.com/doa_event" target="_blank">@doa_event</a>
+</div>
+
+<!-- MAP -->
+<div class="section">
+    <h2>Konum</h2>
+    <iframe src="https://www.google.com/maps?q=Doa%20Event%20Organizasyon%20Davet%20Evi&output=embed"></iframe>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+     2026 Doa Event
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+     doaevent@outlook.com
+</div>
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/905323684677" target="_blank">Mesaj At</a>
+
+</body>
+</html>
